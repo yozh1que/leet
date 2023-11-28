@@ -1,4 +1,4 @@
-package top_interview_questions_easy.array
+package leet.top_interview_questions_easy.array
 
 fun rotate(matrix: Array<IntArray>): Unit {
   var rowIndex = 0

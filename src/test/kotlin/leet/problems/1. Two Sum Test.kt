@@ -1,5 +1,6 @@
-package problems
+package leet.problems
 
+import leet.problems.twoSum
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.Test
 

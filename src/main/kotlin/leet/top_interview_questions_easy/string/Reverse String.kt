@@ -1,4 +1,4 @@
-package top_interview_questions_easy.string
+package leet.top_interview_questions_easy.string
 
 fun reverseString(s: CharArray): Unit {
   val pivot = s.size / 2

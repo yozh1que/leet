@@ -1,5 +1,6 @@
-package top_interview_questions_easy.string
+package leet.top_interview_questions_easy.string
 
+import leet.top_interview_questions_easy.string.reverseString
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 

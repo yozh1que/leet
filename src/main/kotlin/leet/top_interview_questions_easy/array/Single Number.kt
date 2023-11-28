@@ -1,4 +1,4 @@
-package top_interview_questions_easy.array
+package leet.top_interview_questions_easy.array
 
 fun singleNumber(nums: IntArray): Int {
   if (nums.size == 1) {

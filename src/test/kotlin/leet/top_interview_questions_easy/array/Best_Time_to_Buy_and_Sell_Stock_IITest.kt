@@ -1,5 +1,6 @@
-package top_interview_questions_easy.array
+package leet.top_interview_questions_easy.array
 
+import leet.top_interview_questions_easy.array.maxProfit
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
