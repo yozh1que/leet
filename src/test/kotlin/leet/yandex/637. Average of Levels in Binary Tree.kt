@@ -2,7 +2,6 @@ package leet.yandex
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertContentEquals
-import kotlin.test.assertEquals
 
 /**
  * Example:
@@ -15,16 +14,11 @@ import kotlin.test.assertEquals
  * }
  */
 
-class TreeNode(val value: Int) {
-  var left: TreeNode? = null
-  var right: TreeNode? = null
-}
-
 
 fun TreeNode.toLevelValuesMap(acc: MutableMap<Int, MutableList<Int>>, level: Int) {
   left?.toLevelValuesMap(acc, level + 1)
   right?.toLevelValuesMap(acc, level + 1)
-  acc.getOrPut(level, { mutableListOf() }).add(value)
+  acc.getOrPut(level, { mutableListOf() }).add(`val`)
 }
 
 fun averageOfLevels(root: TreeNode?): DoubleArray {
